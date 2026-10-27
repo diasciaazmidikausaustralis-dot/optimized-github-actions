@@ -1,0 +1,26 @@
+{
+  "name": "test",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/lodash-es": "^4.17.12",
+    "axios": "^1.21.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.15.1",
+    "date-fn": "^0.0.2",
+    "dotenv": "^18.0.9",
+    "eslint": "^10.13.0",
+    "lodash-es": "^4.18.1",
+    "pino": "^10.4.0",
+    "rxjs": "^7.8.2",
+    "tsx": "4.23.15",
+    "typescript-eslint": "^8.72.0",
+    "uuid": "^14.0.3",
+    "vitest": "^5.0.5",
+    "zod": "^4.6.7"
+  }
+}
