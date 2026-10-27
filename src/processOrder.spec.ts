@@ -55,7 +55,7 @@ describe('processOrder', () => {
     expect(result.discount).toEqual(0)
     expect(result.totalPrice).toEqual(300)
     expect(result.appliedCoupon).toBeNull()
-  }),
+  })
 
 
   it('applies 50% coupone when order price is more than minimum', () => {
